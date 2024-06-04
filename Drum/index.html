@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatMaster - Drum Kit</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="background-image"></div> <!-- Background image container -->
+    <div class="container">
+        <h1 id="app-title">BeatMaster - Drum Kit</h1> <!-- Main heading displaying the app name -->
+        <div class="button-container">
+            <button id="kick-button">Kick Drum (A)</button> <!-- Button for kick drum sound -->
+            <button id="snare-button">Snare Drum (S)</button> <!-- Button for snare drum sound -->
+            <button id="tom-button">Tom Drum (D)</button> <!-- Button for tom drum sound -->
+            <button id="hihat-button">Hi-Hat (F)</button> <!-- Button for hi-hat sound -->
+            <button id="ride-button">Ride Cymbal (R)</button> <!-- Button for ride cymbal sound -->
+            <button id="boom-button">Boom (G)</button> <!-- Button for boom sound -->
+            <button id="clap-button">Clap (H)</button> <!-- Button for clap sound -->
+            <button id="openhat-button">Open Hat (J)</button> <!-- Button for open hat sound -->
+            <button id="tink-button">Tink (K)</button> <!-- Button for tink sound -->
+        </div>
+    </div>
+    
+    <audio id="kick-sound" src="sounds/kick.wav"></audio> <!-- Audio element to preload kick sound -->
+    <audio id="snare-sound" src="sounds/snare.wav"></audio> <!-- Audio element to preload snare sound -->
+    <audio id="tom-sound" src="sounds/tom.wav"></audio> <!-- Audio element to preload tom sound -->
+    <audio id="hihat-sound" src="sounds/hihat.wav"></audio> <!-- Audio element to preload hi-hat sound -->
+    <audio id="ride-sound" src="sounds/ride.wav"></audio> <!-- Audio element to preload ride sound -->
+    <audio id="boom-sound" src="sounds/boom.wav"></audio> <!-- Audio element to preload boom sound -->
+    <audio id="clap-sound" src="sounds/clap.wav"></audio> <!-- Audio element to preload clap sound -->
+    <audio id="openhat-sound" src="sounds/openhat.wav"></audio> <!-- Audio element to preload open hat sound -->
+    <audio id="tink-sound" src="sounds/tink.wav"></audio> <!-- Audio element to preload tink sound -->
+    
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
